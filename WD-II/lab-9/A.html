@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab-9</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+		}
+		.header{
+			height: 10vh;
+			width: 100%;
+		}
+		.logo{
+			height: 100%;
+			width: 70%;
+			float: left;
+		}
+		.logo img{
+			height: 100%;
+			width: 20%;
+		}
+		.nav{
+			height: 100%;
+			width: 28%;
+			float: left;
+			font-size: 2rem;
+			padding-top: 25px;
+			margin-left: 2px;
+		}
+		.main{
+			height: 60vh;
+			width: 100%;
+			background-image:url(data:image/jpeg;base64,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) ;
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		.m-right{
+			height: 100%;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: right;
+		}
+		.h1,.p{
+			margin-left: 60%;
+			margin-top:30px;
+		}
+		.footer{
+			width: 100%;
+			height: 30vh;
+			
+		}
+		.f-box{
+			display: flex;
+			width: 100%;
+			height: 100%;
+			gap: 10px;
+			justify-content:space-evenly;
+			align-items: center;
+		}
+		.box{
+			width:20%;
+			height:90%;
+			border: 2px solid green;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="header">
+		<div class="logo">
+			<img src="https://darshan.ac.in/Content/media/DU_Logo.svg">
+		</div>
+		<div class="nav">
+				<a>Home</a>
+				<a>About</a>
+				<a>Serices</a>
+				<a>My Work</a>
+				<a>Contact</a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="m-right">
+			<h1 class="h1">Hello,I Am Dushyant Busa</h1>
+			<p class="p">I use HTML And Css tO Convert is wed ites</p>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="f-box">
+		<div class="b1 box">box1</div>
+		<div class="b2 box">box2</div>
+		<div class="b3 box">box3</div>
+		<div class="b4 box">box4</div>
+		</div>
+	</div>
+</body>
+</html>

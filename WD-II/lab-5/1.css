@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 0px;
+	background-color: black;
+	color: white;
+}
+body{
+	text-align: center;
+}
+.bheem{
+	background-color: grey;
+}
+#raju{
+	background-color: cyan;
+}
+h6{
+	background-color: white;
+}

@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+.a{
+	background-color: red;
+}
+.b{
+	background-color: blueviolet;
+}
+p img{
+	background-color: red;
+	width: 300px;
+}
+.one,.two{
+		background-color: blue;
+		color: darkred;
+}
