@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+/* style.css (saved in D:\html\netfix\css\style.css) */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../img/BebasNeue.woff2") format("woff2"),
+       url("../img/BebasNeue.woff") format("woff"),
+       url("../img/BebasNeue.otf") format("opentype");
+}
+
+
+
+
+body {
+    background-color: black;
+    font-family: "Bebas Neue",Arial, sans-serif;
+
+}
+
+.main {
+    background-image: url("https://xboxwire.thesourcemediaassets.com/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+
+
+}
+/* .opacity{
+ opacity: 0.4;
+} */
+
+ 
+
+.main.box {
+    height: 644px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    padding-top: 25px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    padding-bottom: 150px;
+    
+}
+
+.unlimited {
+   font-family: 'Martel Sans', sans-serif;
+    height:  calc(100% - 225px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 0 30px;
+}
+
+.unlimited> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.unlimited>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.unlimited>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.sep{
+    
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.btn{
+    padding: 3px 7px;
+    font-weight:bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+
+}
+.btn-red1{
+    background-color: red;
+    color: white;
+    padding:15px 30px 9px ;
+    border-radius: 7px;
+}
+input::placeholder{
+    align-items: left;
+    font-size: 10px;
+}
+.main input{
+    color: white;
+    padding:15px 55px 10px;
+    border-radius: 7px;
+    text-align:left;
+    background-color: rgba(23,23,23,2.0);
+
+}
+.btn-eng{
+     background-color:rgba(23,23,23,1.0);
+     color:rgba(251, 249, 249, 0.675) ;
+     padding:2px 20px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
