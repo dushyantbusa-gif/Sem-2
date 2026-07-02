@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int a[10], i, j, temp;
+    int *p = a;   // pointer pointing to array
+
+    // Input 10 numbers
+    printf("Enter 10 numbers:\n");
+    for (i = 0; i < 10; i++) {
+        scanf("%d", (p + i));   // using pointer
+    }
+
+    // Sorting using pointer
+    for (i = 0; i < 10; i++) {
+        for (j = i + 1; j < 10; j++) {
+            if (*(p + j) < *(p + i)) {
+                temp = *(p + i);
+                *(p + i) = *(p + j);
+                *(p + j) = temp;
+            }
+        }
+    }
+
+    // Output sorted array
+    printf("\nSorted numbers:\n");
+    for (i = 0; i < 10; i++) {
+        printf("%d ", *(p + i));   // printing using pointer
+    }
+
+    return 0;
+}
