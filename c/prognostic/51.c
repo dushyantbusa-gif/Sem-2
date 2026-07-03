@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main(){
+    int n=50,sum=0,i=1;
+    while(i<=n){
+        sum=sum+i;
+        
+        i++;
+    }
+    printf("%d\n",sum);
+}
